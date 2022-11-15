@@ -9,13 +9,17 @@
   <title>Document</title>
 </head>
 <body>
+  <canvas id="canvas" width="200" height="200"></canvas>
 
-  <div class="contact_form">
-      <label for="txt" >Введите ваш взраст</label>
-        <input type="text" name="txt" oninput="myFunction()" id = "age">
+  <div class = "contact_form">
+
+    <h3>Pyramid height</h3>
+    <input type="text"  id= "height" placeholder="Число"></br></br>
+    <button id="button" onclick="getData()" class="submit">Получить результат</button>
+
+  <p id="result"></p>
   </div>
 
-  <p id="txt"></p>
   <script src='main.js'></script>
 </body>
 </html>

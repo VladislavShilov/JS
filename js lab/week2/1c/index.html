@@ -1,0 +1,66 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href = "style.css">
+
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="contact_form">
+    <h3>Хотите ли вы играть в бадминтон?</h3>
+    <b>Какой сегодня день недели? </b>
+		<select id="day"><br/>
+      <option disabled selected>Выбрать</option>
+		  <option value = "Понедельник">Понедельник</option>
+		  <option value = "Вторник">Вторник</option>
+		  <option value = "Среда">Среда</option>
+		  <option value = "Четверг">Четверг</option>
+      <option value = "Пятница">Пятница</option>
+      <option value = "Суббота">Суббота</option>
+      <option value = "Воскресенье">Воскресенье</option>
+		</select><br/><br/>
+
+    <b>Как ощущается температура? </b>
+		<select id="temp"><br/>
+		  <option disabled selected>Выбрать</option>
+		  <option value = "Жарко">Жарко</option>
+		  <option value = "Тепло">Тепло</option>
+		  <option value = "Холодно">Холодно</option>
+		</select><br/><br/>
+
+    <b>Какие осадки?</b>
+		<select id="osadki"><br/>
+		  <option disabled selected>Выбрать</option>
+		  <option value = "Ясно">Ясно</option>
+		  <option value = "Облачно">Облачно</option>
+		  <option value = "Дождь">Дождь</option>
+      <option value = "Снег">Снег</option>
+      <option value = "Град">Град</option>
+		</select><br/><br/>
+
+    <b>Есть ли ветер?</b>
+		<select id="veter"><br/>
+		  <option disabled selected>Выбрать</option>
+		  <option value = "Есть">Есть</option>
+		  <option value = "Нет">Нет</option>
+		</select><br/><br/>
+
+    <b>Какая влажность?</b>
+		<select id="vlaga"><br/>
+		  <option disabled selected>Выбрать</option>
+		  <option value = "Высокая">Высокая</option>
+		  <option value = "Низкая">Низкая</option>
+		</select><br/><br/>
+
+    <button id="button" onclick="getData()" class="submit">Получить результат</button>
+
+  <p id="result"></p>
+  </div>
+
+  <script src='main.js'></script>
+</body>
+</html>
